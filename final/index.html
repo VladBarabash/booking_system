@@ -2,38 +2,64 @@
 <html>
   <head>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
     <link rel="stylesheet" href="css/bootstrap.css">
-    
+
     <script src="js/jquery.js"></script>
+    <script src="js/jquery-ui.js"></script>
     <script src="js/bootstrap.js"></script>
-    <script src="js/scripts.js"></script>
+
   </head>
   <body>
     <div class="reserv">
       <div class="stage_1">
         <div class="date">
-
-        </div>
-        <div class="stage_1_submit">
-
+          <div class="block_name">
+            <div class="stage_number">Шаг 1:</div>
+            <div class="stage_desc">Выберите даты</div>
+          </div>
+          <div class="date_picker">
+            <div class="arrival_date">
+              <label for="arr_date">Дата заезда</label>
+              <input name="arr_date" type="text" class="datepicker1" />
+            </div>
+            <div class="release_date">
+              <label for="rel_date">Дата выезда</label>
+              <input name="rel_date" type="text" class="datepicker2" />
+            </div>
+          </div>
+          <div class="marg stage_1_submit"><a class="btn btn-primary">Далее</a></div>
         </div>
       </div>
       <div class="stage_2">
         <div class="rooms">
+          <div class="block_name">
+            <div class="stage_number">Шаг 2:</div>
+            <div class="stage_desc">Выберите комнату</div>
+          </div>
+          <div class="room_desc">
 
-        </div>
-        <div class="stage_2_submit">
 
+
+            <div class="marg stage_2_submit"><a class="btn btn-primary">Далее</a></div>
+          </div>
         </div>
       </div>
       <div class="stage_3">
         <div class="other_ext">
+          <div class="block_name">
+            <div class="stage_number">Шаг 3:</div>
+            <div class="stage_desc">Дополнительные услуги</div>
+          </div>
+          <div class="others">
 
-        </div>
-        <div class="stage_3_submit">
 
+
+            <div class="marg stage_3_submit"><a class="btn btn-primary">Далее</a></div>
+          </div>
         </div>
       </div>
     </div>
+    <script src="js/scripts.js"></script>
   </body>
 </html>
