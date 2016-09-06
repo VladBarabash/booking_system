@@ -1,0 +1,46 @@
+@import '_mixin.scss';
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.stage_1, .stage_2, .stage_3 {
+  width: 92%;
+  padding: 2% 4%;
+  @include background(null, #35C0CD, null, null, null);
+}
+
+.block_name {
+  margin: 2% 0px;
+
+  div {
+    display: inline-block;
+    font-size: 220%;
+  }
+
+  .stage_number {
+    padding: 1%;
+    margin-right: 1%;
+    //border: 4px solid black;
+    //border-radius: 150px;
+  }
+}
+
+.date_picker {
+  font-size: 150%;
+
+  div {
+    display: inline-block;
+    margin-left: 1%;
+  }
+}
+.marg {
+  margin: 2% 0;
+  text-align: center;
+}
+
+.room_desc,
+.others {
+  display: none;
+}
