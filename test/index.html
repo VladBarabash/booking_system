@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <section class="content">
+      <section class="page hotel_name show">
+        <span>Выбор отеля</span>
+        <table>
+          <thead>
+            <tr>
+              <td>Наименование</td>
+              <td>Типы номеров</td>
+              <td></td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr id="id1">
+              <td name="hotel_name1">Отель Матисов Домик</td>
+              <td>стандартный номер</td>
+              <td><button>Выбрать</button></td>
+            </tr>
+            <tr id="id2">
+              <td name="hotel_name2">Отель На берегу</td>
+              <td>двухместный номер</td>
+              <td><button>Выбрать</button></td>
+            </tr>
+            <tr id="id3">
+              <td name="hotel_name3">Отель Пенза</td>
+              <td>номер люкс</td>
+              <td><button>Выбрать</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="page rooms hide">
+        <span>Выбор комнаты</span>
+        <table>
+          <thead>
+            <tr>
+              <td>Тип номера</td>
+              <td>Количество человек</td>
+              <td></td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr id="cl1">
+              <td class="cl1_name">Одноместный номер</td>
+              <td class="cl1_val"><input type="number" name="room_one_count" /></td>
+              <td><button>Выбрать</button></td>
+            </tr>
+            <tr id="cl2">
+              <td class="cl2_name">Двухместный номер</td>
+              <td class="cl2_val"><input type="number" name="room_all_count" /></td>
+              <td><button>Выбрать</button></td>
+            </tr>
+            <tr id="cl3">
+              <td class="cl3_name">Номер Люкс</td>
+              <td class="cl3_val"><input type="number" name="room_vip_count" /></td>
+              <td><button>Выбрать</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="page other hide">
+        <section>
+          <span>Дополнительные услуги</span>
+          <section><button>Далее</button></section>
+        </section>
+      </section>
+    </section>
+  </body>
+</html>
