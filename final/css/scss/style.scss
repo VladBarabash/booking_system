@@ -28,7 +28,9 @@ body {
 }
 
 .date_picker {
-  font-size: 150%;
+  label {
+    font-size: 150%;
+  }
 
   div {
     display: inline-block;
