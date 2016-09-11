@@ -1,0 +1,14 @@
+@mixin background($image, $color, $size, $repeat, $position) {
+
+  @if $image==null {
+    background-image: $image;
+  } @else {
+    $path: './img/' + $image;
+    background-image: $path;
+  }
+
+  background-color: $color;
+  background-size: $size;
+  background-repeat: $repeat;
+  background-position: $position;
+}

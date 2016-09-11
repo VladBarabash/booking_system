@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/gallery.css" />
+
+  </head>
+  <body>
+    <div class="reserv">
+      <div class="stage_1">
+        <div class="date">
+          <div class="block_name">
+            <div class="stage_number">Шаг 1:</div>
+            <div class="stage_desc">Выберите даты</div>
+          </div>
+          <div class="date_picker">
+            <div class="arrival_date">
+              <label for="arr_date">Дата заезда</label>
+              <input name="arr_date" type="text" class="datepicker1" />
+            </div>
+            <div class="release_date">
+              <label for="rel_date">Дата выезда</label>
+              <input name="rel_date" type="text" class="datepicker2" />
+            </div>
+            <div class="stage_1_submit"><a class="btn btn-primary">Далее</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="stage_2">
+        <div class="rooms">
+          <div class="block_name">
+            <div class="stage_number">Шаг 2:</div>
+            <div class="stage_desc">Выберите комнату</div>
+          </div>
+          <div class="room_desc" data-toggle="buttons">
+
+              <div class="room_avail">
+                <div class="room room_1">
+                  <div class="room_id">1</div>
+                  <div class="room_name">Одноместный номер с двухспальной кроватью</div>
+                  <div class="room_gallery"><img src="img/img1.png" /></div>
+                  <div class="room_button room_accept_1"><a class="btn btn-primary">Выбрать</a></div>
+                </div>
+                <div class="room_more_1">
+                  <h3 class="desc_float">Наши номера</h3><div class="open_gal_1 btn-primary">Открыть</div>
+                  <div class="clear"></div>
+                  <div class="gallery">
+                    <div class="gallery-view">
+                      <img src="img/img2.jpg" title="" alt="img2.jpg" />
+                    </div>
+                    <ul class="gallery-mini">
+                      <li><a href="img/img2.jpg"><img src="img/img2.jpg" title="" alt="img2.jpg" /></a></li>
+                      <li><a href="img/img3.jpg"><img src="img/img3.jpg" title="" alt="img3.jpg" /></a></li>
+                      <li><a href="img/img4.jpg"><img src="img/img4.jpg" title="" alt="img4.jpg" /></a></li>
+                      <li><a href="img/img5.jpg"><img src="img/img5.jpg" title="" alt="img5.jpg" /></a></li>
+                      <li><a href="img/img6.jpg"><img src="img/img6.jpg" title="" alt="img6.jpg" /></a></li>
+                      <li><a href="img/img7.jpg"><img src="img/img7.jpg" title="" alt="img7.jpg" /></a></li>
+                    </ul>
+                  </div>
+                  <div class="clear"></div>
+                  <h3>Описание</h3>
+                  <div class="room_about">
+                    <p>Удобные апартаменты оснащены всем необходимым для комфортного отдыха. Плазменный телевизор, холодильник, сплит-система, санузел с горячей и холодной водой (душевая). Любой номер гостиницы обрадует своим оригинальным интерьером, стильной отделкой и уютной атмосферой.</p>
+                    <p>Из окон на одной стороне открывается вид на море и пляжную полосу, на другой – виден парк развлечений, погруженный в зелень экзотических деревьев.</p>
+                    <p>В номере:</p>
+                    <li>телевизор</li>
+                    <li>кондиционер</li>
+                    <li>холодильник</li>
+                    <li>средство гигиены для первой необходимости</li>
+                    <li>полотенца для пользования в номере</li>
+                    <li>халаты на двоих</li>
+                    <li>двухспальная кровать</li>
+                  </div>
+                </div>
+                <div class="room_1_more">подробнее</div>
+              </div>
+              <div class="room_avail">
+                <div class="room room_2">
+                  <div class="room_id">2</div>
+                  <div class="room_name">Одноместный номер с двумя кроватями</div>
+                  <div class="room_gallery"><img src="img/img2.jpg" /></div>
+                  <div class="room_button room_accept_2"><a class="btn btn-primary">Выбрать</a></div>
+                </div>
+                <div class="room_more_2">
+                    <p>Удобные апартаменты оснащены всем необходимым для комфортного отдыха. Плазменный телевизор, холодильник, сплит-система, санузел с горячей и холодной водой (душевая). Любой номер гостиницы обрадует своим оригинальным интерьером, стильной отделкой и уютной атмосферой.</p>
+                    <p>Из окон на одной стороне открывается вид на море и пляжную полосу, на другой – виден парк развлечений, погруженный в зелень экзотических деревьев.</p>
+                    <p>В номере:</p>
+                    <li>телевизор</li>
+                    <li>кондиционер</li>
+                    <li>холодильник</li>
+                    <li>средство гигиены для первой необходимости</li>
+                    <li>полотенца для пользования в номере</li>
+                    <li>халаты на двоих</li>
+                    <li>двухспальная кровать</li>
+                </div>
+                <div class="room_2_more">подробнее</div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="stage_3">
+        <div class="other_ext">
+          <div class="block_name">
+            <div class="stage_number">Шаг 3:</div>
+            <div class="stage_desc">Дополнительные услуги</div>
+          </div>
+          <div class="others">
+
+
+
+            <div class="marg stage_3_submit"><a class="btn btn-primary">Далее</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/gallery.js"></script>
+  </body>
+</html>
