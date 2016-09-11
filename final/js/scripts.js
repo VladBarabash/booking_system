@@ -38,11 +38,11 @@ $(document).ready(function() {
 
   $('.room_accept_1').on('click', function() {
     $('.stage_3').slideDown('slow');
-    $('.room_accept_1').attr('disabled','disabled');
+    $('.room_accept_1 a').attr('disabled','disabled');
   });
 
   $('.room_accept_2').on('click', function() {
     $('.stage_3').slideDown('slow');
-    $('.room_accept_2').attr('disabled','disabled');
+    $('.room_accept_2 a').attr('disabled','disabled');
   });
 });

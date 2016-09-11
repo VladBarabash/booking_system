@@ -1,0 +1,36 @@
+.gallery {
+  width: 100%;
+  margin: 2% 0;
+}
+
+.gallery-view {
+  width: 50%;
+  background: url(../img/loading.gif) no-repeat 50% 40%;
+  text-align:center;
+
+  img {
+    width: 70%;
+  }
+
+  float: left;
+}
+
+.gallery-mini {
+  width: 50%;
+  list-style-type: none;
+  overflow: auto;
+  margin: 0;
+  float: right;
+
+  img {
+    height: 70px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    float: left;
+  }
+}
+
+.active {
+  border: 2px solid #006dcc;
+  height: 66px !important;
+}

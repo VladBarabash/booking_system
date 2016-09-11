@@ -8,6 +8,9 @@ body {
   @include background(null, #35C0CD, null, null, null);
 }
 
+.clear { clear: both; }
+.desc_float {float: left;}
+
 .stage_1, .stage_2, .stage_3 {
   width: 92%;
   padding: 2% 4%;
@@ -102,9 +105,15 @@ body {
 
 .room_more_1,
 .room_more_2 {
-  padding:2%;
+  margin-top: 2%;
+  padding:4%;
   text-align: justify;
   display: none;
+}
+
+.open_gal_1 {
+  float: left;
+  margin-left: 1%;
 }
 
 .room_1_more,
